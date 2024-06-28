@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Generator</title>
+
+</head>
+<body>
+    
+    <header class="header">
+        <div class="icon-container">
+            <img class="icon" src="/img/iconmonstr-cook-3-240 (4).png" alt="logo">
+            <p class="icon-name">RecipeGen</p>
+        </div>
+        <!-- <nav>
+            <ul>
+                <div class="nav-container">
+                    <li><a class="nav-link"href="#">How it works</a></li>
+                    <li><a class="nav-link" href="#">Meals</a></li>
+                    <li><a class="nav-link" href="#">Testimonials</a></li>
+                    <li><a class="nav-link" href="#">Pricing</a></li>
+                    <li><a class="nav-link samelink" href="#">Try for free</a></li>
+                </div>
+            </ul>
+        </nav> -->
+    </header>
+    <section class="section-hero">
+        <div class="hero">
+            <div class="text-box">
+                <h1 class="head-1">Easy recipes generated with <span>AI</span></h1>
+                <p class="hero-text">
+                    This AI powered website provides easy solutions to your kitchen problems. Try vaguely describing your desired taste and see the wonders yourself!
+                </p>
+                <textarea name="prompt" id="prompt" class="prompt" cols="50px" rows="6px"></textarea> <br>
+                <a href="#" class="btn" onclick="show_answer();">Search</a>
+                <!-- <form id="prediction-form">
+                    <input type="text" id="text-input" placeholder="Enter text...">
+                    <button type="submit">Predict</button>
+                </form> -->
+            </div>
+            <div class="img-box">
+                <img class="hero-img" src="/img/DrawKit Vector Illustration Food & Culture (4).png" alt="pic">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
